@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Solicitud de Información</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+  </head>
+  <body>
+    <h1>Solicitud de Información</h1>
+    <form id="formulario" method="POST">
+      <label for="codigo">No. Paciente:</label>
+      <input type="text" id="codigo" name="codigo"><br>
+      
+      <label for="nombre">Nombres:</label>
+      <input type="text" id="nombre" name="nombre"><br>
+
+      <label for="apellido">Apellidos:</label>
+      <input type="text" id="apellido" name="apellido"><br>
+
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" name="fechaNacimiento"><br>
+
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad" name="edad"><br>
+
+      <label for="ocupacion">Ocupacion:</label>
+      <input type="text" id="ocupacion" name="ocupacion"><br>
+
+      <label for="estadocivil">Estado Civil:</label>
+      <input type="text" id="estadocivil" name="estadocivil"><br>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="sexo">Sexo:</label><br>
+      <select id="sexo" name="sexo">
+      <option value="Hombre">Hombre</option>
+      <option value="Mujer">Mujer</option>
+      <option value="Otro">Otro</option>
+      </option>
+      </select><br>
+
+      <label for="identidad1">DPI:</label>
+      <input type="text" id="identidad1" name="identidad1"><br>
+
+      <label for="telefono1">Teléfono de Casa:</label>
+      <input type="text" id="telefono1" name="telefono1"><br>
+
+      <label for="telefono2">Teléfono1:</label>
+      <input type="text" id="telefono2" name="telefono2"><br>
+
+      <label for="telefono3">Teléfono2:</label>
+      <input type="text" id="telefono3" name="telefono3"><br>
+
+      <label for="direccion">Dirección de Residencia:</label>
+      <input type="text" id="direccion" name="direccion"><br>
+
+      <label for="descripcion">Descripción General:</label>
+      <textarea id="descripcion" name="descripcion" style="height: 296px;"></textarea><br>
+
+      <label for="otros">Otros:</label>
+      <textarea id="otros" name="otros" style="height: 296px;"></textarea><br>
+
+    </form>
+
+    <h2>Datos generales del familiar</h2>
+
+    <form id="Datos del familiar del Paciente">
+      <label for="nombre">Nombres:</label>
+      <input type="text" id="nombre" name="nombre"><br>
+
+      <label for="apellido">Apellidos:</label>
+      <input type="text" id="apellido" name="apellido"><br>
+
+      <label for="edad">Edad:</label>
+      <input type="text" id="edad" name="edad"><br>
+
+      <label for="parentesco">Parentesco:</label>
+      <input type="text" id="parentesco" name="parentesco"><br>
+
+      <label for="identidad2">DPI:</label>
+      <input type="text" id="identidad2" name="identidad2"><br>
+
+      <label for="observaciones">Observaciones:</label>
+      <textarea id="observaciones" name="observaciones" style="height: 296px;"></textarea><br>
+
+    </form>
+    <button type="submit">Enviar</button>
+    <script src="app.js"></script>
+  </body>
+</html>
